@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#name{
+    font-size: 60px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#name:hover{
+    cursor: pointer;
+}
+.display-4.bold{
+    font-weight: bold;
+}
+.jumbotron{
+    color: white;
+}
+
+.background-home{
+    background-image: url("img/Mark_Simpson4.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.background-about-me{
+  background-color: white;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .square{
+    position: absolute;
+    bottom:0;
+    right: 5px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: white;
+    height:80px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.arrow {
+    border: solid black;
+    border-width: 0 12px 12px 0;
+    display: inline-block;
+    padding: 12px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
+
+.square:hover{
+    cursor: pointer;
+  }
+
+
+#fixed-nav-bar{
+
+  display:none;
+}
+
+
+@media only screen and (max-width:700px){
+  .square{
+    width: 100%;
+    right:0px;
+  }
+}
+.work-exp-background{
+  background-color:khaki;
+}

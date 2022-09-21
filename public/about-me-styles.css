@@ -1,0 +1,14 @@
+*{
+    background-color: aquamarine;
+}
+
+
+#prof-pic{
+    background-image: url("img/linked-in-profile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height:200px;
+    width:200px;
+    border-radius: 20%;
+}
