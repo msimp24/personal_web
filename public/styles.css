@@ -30,8 +30,13 @@ html{
   background-color: white;
 }
 body, html {
+  background-color: rgb(248, 243, 243);
     height: 100%;
     margin: 0;
+  }
+
+  .skills-page{
+    background-color: rgb(2, 2, 74);
   }
 
   .square{
@@ -46,6 +51,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+border: 1px solid lightgray;
   }
 
 .arrow {
@@ -58,6 +64,10 @@ body, html {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
+  hr.vert{
+    transform: rotate(90deg);
+    -webkit-transform: (90deg);
+  }
 
 
 
@@ -66,9 +76,25 @@ body, html {
   }
 
 
-#fixed-nav-bar{
-
+.fixed-nav-bar{
   display:none;
+  position: fixed;
+  width:150px;
+  float: right;
+  right: 5px;
+  top:60px;
+}
+
+@media only screen and (max-width:800px){
+  #fixed-nav-bar{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:800px){
+  .work-data{
+    display:none;
+  }
 }
 
 
@@ -78,6 +104,34 @@ body, html {
     right:0px;
   }
 }
-.work-exp-background{
-  background-color:khaki;
+#box{
+  background-color: blue;
+}
+.img-work-exp{
+  height:125px;
+}
+.img-work-exp-stk{
+  margin-left: 15px;
+  margin-bottom: 20px;
+  height: 80px;
+}
+.kalpa-img{
+  height: 80px;
+
+}
+#submit-button{
+  background-color: white;
+  width: 50%;
+}
+#submit-button:hover{
+  background-color: rgb(248, 243, 243);
+  color:black;
+}
+
+.grey-background{
+  background-color: white;
+}
+.active-navbar{
+  background-color: white;
+  color: yellow;
 }
